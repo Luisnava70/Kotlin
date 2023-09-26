@@ -43,6 +43,9 @@ fun imprimir2(valor:String = "Este es el primer valor por defectos",
 
 fun calificaciones(cal1:Float = 8f,cal2:Float= 8f, cali3:Float): Float {
     val promedio: Float = (cal1 + cal2 + cali3)/3f
+    if(promedio < 6){
+        return promedio
+    }
     return promedio.roundToInt().toFloat()
 }
 
