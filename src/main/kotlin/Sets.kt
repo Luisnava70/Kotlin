@@ -14,4 +14,6 @@ fun main() {
     val numeroFav = numeroFavoritos.first { numero -> numero > 3 }
     println(numeroFav)
 
+    var name : Set<String> = mutableSetOf("nombre 1","nombre 2")
+    println("$name")
 }
